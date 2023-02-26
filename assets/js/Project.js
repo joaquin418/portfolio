@@ -242,27 +242,7 @@ $(function () {
         $(this).removeClass("tt-ol-menu-hover");
       });
 
-
-
       var venobox =new VenoBox({selector:".venobox", infinigall:"false", numeration:"false", spinner:"flow", autoplay:"false", navTouch: "true", navKeyboard:"true", navigation:"true",});
-    
-        
-    // =======================================================================================
-    // Defer videos (Youtube, Vimeo)
-    // Note: When you have embed videos in your webpages it causes your page to load slower.
-    // Deffering will allow your page to load quickly.
-    // Source: https://www.feedthebot.com/pagespeed/defer-videos.html
-    // =======================================================================================
-
-    function init() {
-      var vidDefer = document.getElementsByTagName("iframe");
-      for (var i = 0; i < vidDefer.length; i++) {
-        if (vidDefer[i].getAttribute("src")) {
-          vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("src"));
-        }
-      }
-    }
-    window.onload = init;
 
     //Previous and Next Project Slider
     // fade in-up
@@ -289,21 +269,5 @@ $(function () {
     });
   }
 
-    // =======================================================================================
-    // Defer videos (Youtube, Vimeo)
-    // Note: When you have embed videos in your webpages it causes your page to load slower.
-    // Deffering will allow your page to load quickly.
-    // Source: https://www.feedthebot.com/pagespeed/defer-videos.html
-    // =======================================================================================
-
-    function init() {
-      var vidDefer = document.getElementById("lazyvid");
-      for (var i = 0; i < vidDefer.length; i++) {
-        if (vidDefer[i].getAttribute("src")) {
-          vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("src"));
-        }
-      }
-    }
-    window.onload = init;
 
 });
