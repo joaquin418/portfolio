@@ -14,7 +14,7 @@
   z-index: 0;
 }
 
-@media only screen and (max-width: 995px) {
+@media screen (max-width: 995px) {
   .hero-fullscreen {
     overflow: auto;
   }
