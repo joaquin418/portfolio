@@ -490,13 +490,12 @@ svg {
     }
   }
   
-.hr-header{
+.hr-resume{
   position: relative;
-  width: 80%;
+  top: -25px;
+  width: 100%;
   border-radius: 50%;
-  opacity: 0.10;
-
-}
+  opacity: 0.10;}
 
 
 .portfolio-section{
