@@ -1,0 +1,1 @@
+var lightbox = new SimpleLightbox({elements: '#gallery a, .masonry a, .lightBoxVideoLink'});
